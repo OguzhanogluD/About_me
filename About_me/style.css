@@ -1,0 +1,83 @@
+body {
+  background-color: #ffd8bf;
+  font-family: 'Arial', sans-serif;
+  color: #000000;
+    margin: 0; /* Tarayıcı varsayılan kenar boşluklarını kaldırır */
+}
+nav {
+padding-top: 50px; /* Üst boşluk */
+padding-bottom: 20px; /* Alt boşluk */
+padding-left: 60px; /* Sol boşluk */
+padding-right: 60px; /* Sağ boşluk */
+background-color: #4e5ddc; /* Arka plan rengi */
+
+}
+ul {
+list-style-type: none; /* Liste işaretlerini kaldırır */
+padding: 0; /* İç boşlukları kaldırır */
+margin: 0; /* Dış boşlukları kaldırır */
+display: flex; /* Flexbox kullanarak yatay hizalama */
+gap: 20px; /* Elemanlar arasındaki boşluk */
+justify-content: center; /* Elemanları yatayda ortalar */
+align-items: center; /* Elemanları dikeyde ortalar */
+
+}
+a {
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  color: #02021d; /* Metin rengini ayarlar */
+  font-weight: bold; /* Kalın metin yapar */
+  font-size: 18px; /* Yazı boyutunu ayarlar */
+}
+a:hover {
+  color: #d79f85; /* Fare ile üzerine gelindiğinde renk değişimi */
+  transition: color 0.3s ease; /* Renk değişimi için geçiş efekti */
+}
+
+h1 {
+  color: #02021d;
+  text-align: center;
+}
+
+p {
+  font-size: 15opx;
+  text-align: center;
+}
+img {
+  display:inlne; /* Resmi blok düzende gösterir */
+  margin-top: 30px; /* Üst boşluk */
+  margin-left: auto; /* Sol kenar boşluğunu otomatik ayarlar */
+  margin-right: auto; /* Sağ kenar boşluğunu otomatik ayarlar */
+  width: auto; /* Resim genişliğini ayarlar */
+ height: 300pxa; /* Resim yüksekliğini ayarlar */
+
+}
+.mypainting {
+  margin: 30px auto;
+  width: 100%;
+  border: 5px solid #4e5ddc;
+  border-radius: 10px;
+  height: 300px; /* Resim yüksekliğini ayarlar */
+
+
+}
+.mypainting {
+  margin: 30px auto;
+  width: 100px;
+  border: 5px solid #4a2e2e;
+  border-radius: 10px;
+ height: 300px; /* Resim yüksekliğini ayarlar */
+}
+.mypainting3 {
+  margin: 30px auto;
+  width: 400px;
+  border: 5px solid #4a2e2e;
+  border-radius: 10px;
+    height: auto;
+}
+.mypainting4 {
+  margin: 30px auto;
+  width: 400px;
+  border: 5px solid #4a2e2e;
+  border-radius: 10px;
+  height: auto;
+}
